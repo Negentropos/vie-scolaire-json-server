@@ -1,7 +1,7 @@
 {
-  "users":[
+  "users": [
     {
-      "id": 1,
+      "id": "1",
       "firstName": "Marcel",
       "lastName": "Administron",
       "email": "obaudainsh@yahoo.com",
@@ -10,13 +10,13 @@
       "cycles": [],
       "gender": "m",
       "role": {
-        "id":1,
+        "id": 1,
         "name": "admin"
       },
-      "childs":[]
+      "childId": []
     },
     {
-      "id": 2,
+      "id": "2",
       "firstName": "Jacqueline",
       "lastName": "Profon",
       "email": "obaudainsh@yahoo.com",
@@ -25,13 +25,13 @@
       "cycles": [],
       "gender": "f",
       "role": {
-        "id":2,
+        "id": 2,
         "name": "prof"
       },
-      "childs":[]
+      "childId": []
     },
     {
-      "id": 3,
+      "id": "3",
       "firstName": "Martine",
       "lastName": "Jardinon",
       "email": "obaudainsh@yahoo.com",
@@ -40,13 +40,13 @@
       "cycles": [],
       "gender": "f",
       "role": {
-        "id":2,
+        "id": 2,
         "name": "jardi"
       },
-      "childs":[]
+      "childId": []
     },
     {
-      "id": 4,
+      "id": "4",
       "firstName": "Eric",
       "lastName": "Gestionon",
       "email": "obaudainsh@yahoo.com",
@@ -55,13 +55,13 @@
       "cycles": [],
       "gender": "m",
       "role": {
-        "id":4,
+        "id": 4,
         "name": "gest"
       },
-      "childs":[]
+      "childId": []
     },
     {
-      "id": 5,
+      "id": "5",
       "firstName": "Anne",
       "lastName": "Cantinon",
       "email": "obaudainsh@yahoo.com",
@@ -70,13 +70,13 @@
       "cycles": [],
       "gender": "f",
       "role": {
-        "id":5,
+        "id": 5,
         "name": "cant"
       },
-      "childs":[]
+      "childId": []
     },
     {
-      "id": 6,
+      "id": "6",
       "firstName": "Clément",
       "lastName": "Perigon",
       "email": "obaudainsh@yahoo.com",
@@ -85,13 +85,13 @@
       "cycles": [],
       "gender": "m",
       "role": {
-        "id":6,
+        "id": 6,
         "name": "peri"
       },
-      "childs":[]
+      "childId": []
     },
     {
-      "id": 7,
+      "id": "7",
       "firstName": "Adèle",
       "lastName": "Gaderons",
       "email": "obaudainsh@yahoo.com",
@@ -100,13 +100,13 @@
       "cycles": [],
       "gender": "f",
       "role": {
-        "id":7,
+        "id": 7,
         "name": "gard"
       },
-      "childs":[]
+      "childId": []
     },
     {
-      "id": 8,
+      "id": "8",
       "firstName": "Cécile",
       "lastName": "Parenton",
       "email": "cecile.parenton@gmx.com",
@@ -115,13 +115,17 @@
       "cycles": [],
       "gender": "f",
       "role": {
-        "id":8,
+        "id": 8,
         "name": "parent"
       },
-      "childs":[1,2,3]
+      "childId": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "id": 9,
+      "id": "9",
       "firstName": "Pierre",
       "lastName": "Parentin",
       "email": "pierrot@yahoo.com",
@@ -130,13 +134,15 @@
       "cycles": [],
       "gender": "m",
       "role": {
-        "id":8,
+        "id": 8,
         "name": "parent"
       },
-      "childs":[4]
+      "childId": [
+        4
+      ]
     },
     {
-      "id": 10,
+      "id": "10",
       "firstName": "Marc",
       "lastName": "Gardechourme",
       "email": "marco78@gmail.com",
@@ -145,314 +151,517 @@
       "cycles": [],
       "gender": "m",
       "role": {
-        "id":8,
+        "id": 8,
         "name": "parent"
       },
-      "childs":[5,6]
+      "": [
+        5,
+        6
+      ]
     }
   ],
-  "roles":[
+  "roles": [
     {
-            "id": 1,
-            "name": "admin"
+      "id": "1",
+      "name": "admin"
     },
     {
-            "id": 2,
-            "name": "prof"
+      "id": "2",
+      "name": "prof"
     },
     {
-            "id": 3,
-            "name": "jardi"
+      "id": "3",
+      "name": "jardi"
     },
     {
-            "id": 4,
-            "name": "gest"
+      "id": "4",
+      "name": "gest"
     },
     {
-            "id": 5,
-            "name": "cant"
+      "id": "5",
+      "name": "cant"
     },
     {
-            "id": 6,
-            "name": "peri"
+      "id": "6",
+      "name": "peri"
     },
     {
-            "id": 7,
-            "name": "gard"
+      "id": "7",
+      "name": "gard"
     },
     {
-            "id": 8,
-            "name": "parent"
+      "id": "8",
+      "name": "parent"
     }
-
   ],
-  "cycles":[
+  "cycles": [
     {
-          "id": 1,
-          "name": "Jardin d'enfants",
-          "code": "JE"
-        },
+      "id": "1",
+      "name": "Jardin d'enfants",
+      "code": "JE"
+    },
     {
-          "id": 2,
-          "name": "Premier cycle",
-          "code": "PC"
-        },
+      "id": "2",
+      "name": "Premier cycle",
+      "code": "PC"
+    },
     {
-          "id": 3,
-          "name": "Grandes classes",
-          "code": "GC"
-        }
+      "id": "3",
+      "name": "Grandes classes",
+      "code": "GC"
+    }
   ],
   "absences": [
-  ],
-  "childs":[
     {
-      "id":1,
-      "firstName" : "Charlie",
-      "lastName" : "Parenton",
-      "gender" : "m",
-      "classSchool" : {
-        "id":14,
-        "name":"10e",
-        "cycle": {
-            "id": 1,
-            "name": "Grandes classes",
-            "code": "GC"
-          }
-    },
-      "users" : [8,10],
-      "absences" : []
-    },
-    {
-      "id":2,
-      "firstName" : "Kevin",
-      "lastName" : "Parenton",
-      "gender" : "m",
-      "classSchool" : {
-      "id":14,
-      "name":"10e",
-      "cycle": {
-          "id": 1,
-          "name": "Grandes classes",
-          "code": "GC"
-        }
-    },
-      "users" : [8,10],
-      "absences" : []
+      "id": "1",
+      "date": "2023-11-11",
+      "startTime": "08:14:00",
+      "endTime": "16:04:00",
+      "declarationDate": "2023-10-18T08:31:36",
+      "description": "Visite médicale.",
+      "canteen": false,
+      "allDay": true,
+      "nursery": true,
+      "afterSchool": false,
+      "user": {
+        "id": 9,
+        "firstName": "Pierre",
+        "lastName": "Parentin",
+        "email": "pierrot@yahoo.com",
+        "tel1": "03 28 98 89 23",
+        "tel2": "06 74 56 34 21",
+        "cycles": [],
+        "gender": "m",
+        "role": {
+          "id": 8,
+          "name": "parent"
+        },
+        "childId": [
+          4
+        ]
+      },
+      "childId": 4
     },
     {
-      "id":3,
-      "firstName" : "Stéphanie",
-      "lastName" : "Parenton",
-      "gender" : "m",
-      "classSchool" : {
-      "id":14,
-      "name":"10e",
-      "cycle": {
-          "id": 1,
-          "name": "Grandes classes",
-          "code": "GC"
-        }
-    },
-      "users" : [8,10],
-      "absences" : []
-    },
-    {
-       "id":4,
-      "firstName" : "Claude",
-      "lastName" : "Parentin",
-      "gender" : "m",
-      "classSchool" : {
-      "id":14,
-      "name":"10e",
-      "cycle": {
-          "id": 1,
-          "name": "Grandes classes",
-          "code": "GC"
-        }
-    },
-      "users" : [9],
-      "absences" : []
+      "id": "2",
+      "date": "2023-09-09",
+      "startTime": "08:14:00",
+      "endTime": "16:04:00",
+      "declarationDate": "2023-10-18T08:31:36",
+      "description": "Cours de poney.",
+      "canteen": true,
+      "allDay": false,
+      "nursery": false,
+      "afterSchool": false,
+      "user": {
+        "id": 9,
+        "firstName": "Pierre",
+        "lastName": "Parentin",
+        "email": "pierrot@yahoo.com",
+        "tel1": "03 28 98 89 23",
+        "tel2": "06 74 56 34 21",
+        "cycles": [],
+        "gender": "m",
+        "role": {
+          "id": 8,
+          "name": "parent"
+        },
+        "childId": [
+          4
+        ]
+      },
+      "childId": 4
     },
     {
-       "id":5,
-      "firstName" : "Claude",
-      "lastName" : "Gardechourme",
-      "gender" : "m",
-      "classSchool" : {
-      "id":14,
-      "name":"10e",
-      "cycle": {
-          "id": 1,
-          "name": "Grandes classes",
-          "code": "GC"
-        }
-    },
-      "users" : [10],
-      "absences" : []
+      "id": "3",
+      "date": "2023-09-13",
+      "startTime": "08:14:00",
+      "endTime": "16:04:00",
+      "declarationDate": "2023-10-18T08:31:36",
+      "description": "Journée appel à la défence",
+      "canteen": false,
+      "allDay": true,
+      "nursery": true,
+      "afterSchool": false,
+      "user": {
+        "id": 9,
+        "firstName": "Pierre",
+        "lastName": "Parentin",
+        "email": "pierrot@yahoo.com",
+        "tel1": "03 28 98 89 23",
+        "tel2": "06 74 56 34 21",
+        "cycles": [],
+        "gender": "m",
+        "role": {
+          "id": 8,
+          "name": "parent"
+        },
+        "childId": [
+          4
+        ]
+      },
+      "childId": 4
     },
     {
-       "id":6,
-      "firstName" : "Claude",
-      "lastName" : "Gardechourme",
-      "gender" : "m",
-      "classSchool" : {
-      "id":14,
-      "name":"10e",
-      "cycle": {
-          "id": 1,
-          "name": "Grandes classes",
-          "code": "GC"
-        }
+      "id": "4",
+      "date": "2023-11-11",
+      "startTime": "08:14:00",
+      "endTime": "16:04:00",
+      "declarationDate": "2023-10-18T08:31:36",
+      "description": "Raisons de santé",
+      "canteen": false,
+      "allDay": true,
+      "nursery": true,
+      "afterSchool": false,
+      "user": {
+        "id": 9,
+        "firstName": "Pierre",
+        "lastName": "Parentin",
+        "email": "pierrot@yahoo.com",
+        "tel1": "03 28 98 89 23",
+        "tel2": "06 74 56 34 21",
+        "cycles": [],
+        "gender": "m",
+        "role": {
+          "id": 8,
+          "name": "parent"
+        },
+        "childId": [
+          4
+        ]
+      },
+      "childId": 4
     },
-      "users" : [10],
-      "absences" : []
+    {
+      "id": "5",
+      "date": "2023-03-02",
+      "startTime": "08:14:00",
+      "endTime": "16:04:00",
+      "declarationDate": "2023-10-18T08:31:36",
+      "description": "Décès dans la famille.",
+      "canteen": true,
+      "allDay": true,
+      "nursery": true,
+      "afterSchool": false,
+      "user": {
+        "id": 9,
+        "firstName": "Pierre",
+        "lastName": "Parentin",
+        "email": "pierrot@yahoo.com",
+        "tel1": "03 28 98 89 23",
+        "tel2": "06 74 56 34 21",
+        "cycles": [],
+        "gender": "m",
+        "role": {
+          "id": 8,
+          "name": "parent"
+        },
+        "childId": [
+          4
+        ]
+      },
+      "childId": 4
+    },
+    {
+      "id": "3a13",
+      "date": "2024-03-15T00:00:00.000Z",
+      "startTime": "08:10",
+      "endTime": "17:00",
+      "declarationDate": "2024-03-07T15:14:13.818Z",
+      "description": "Il a mal au bedon le ptit doudou.",
+      "canteen": true,
+      "allDay": false,
+      "nursery": false,
+      "afterSchool": false,
+      "childId": "4",
+      "user": {
+        "id": "9",
+        "firstName": "Pierre",
+        "lastName": "Parentin",
+        "email": "pierrot@yahoo.com",
+        "tel1": "03 28 98 89 23",
+        "tel2": "06 74 56 34 21",
+        "cycles": [],
+        "gender": "m",
+        "role": {
+          "id": 8,
+          "name": "parent"
+        },
+        "childId": [
+          4
+        ]
+      }
     }
   ],
-  "classSchools":[
+  "childs": [
     {
-      "id":1,
-      "name":"JE Anne-Fleur",
-      "cycle": {
-          "id": 1,
-          "name": "Jardin d'enfants",
-          "code": "JE"
-        }
-    },
-    {
-      "id":2,
-      "name":"JE Nahani",
-      "cycle": {
-          "id": 1,
-          "name": "Jardin d'enfants",
-          "code": "JE"
-        }
-    },
-    {
-      "id":3,
-      "name":"JE Heike",
-      "cycle": {
-          "id": 1,
-          "name": "Jardin d'enfants",
-          "code": "JE"
-        }
-    },
-    {
-      "id":4,
-      "name":"JE Bénédicte",
-      "cycle": {
-          "id": 1,
-          "name": "Jardin d'enfants",
-          "code": "JE"
-        }
-    },
-    {
-      "id":5,
-      "name":"1e",
-      "cycle": {
-          "id": 1,
-          "name": "Premier cycle",
-          "code": "PC"
-        }
-    },
-    {
-      "id":6,
-      "name":"2e",
-      "cycle": {
-          "id": 1,
-          "name": "Premier cycle",
-          "code": "PC"
-        }
-    },
-    {
-      "id":7,
-      "name":"3e",
-      "cycle": {
-          "id": 1,
-          "name": "Premier cycle",
-          "code": "PC"
-        }
-    },
-    {
-      "id":8,
-      "name":"4e",
-      "cycle": {
-          "id": 1,
-          "name": "Premier cycle",
-          "code": "PC"
-        }
-    },
-    {
-      "id":9,
-      "name":"5e",
-      "cycle": {
-          "id": 1,
-          "name": "Premier cycle",
-          "code": "PC"
-        }
-    },
-    {
-      "id":10,
-      "name":"6e",
-      "cycle": {
-          "id": 1,
-          "name": "Premier cycle",
-          "code": "PC"
-        }
-    },
-    {
-      "id":11,
-      "name":"7e",
-      "cycle": {
-          "id": 1,
-          "name": "Premier cycle",
-          "code": "PC"
-        }
-    },
-    {
-      "id":12,
-      "name":"8e",
-      "cycle": {
-          "id": 1,
-          "name": "Premier cycle",
-          "code": "PC"
-        }
-    },
-    {
-      "id":13,
-      "name":"9e",
-      "cycle": {
+      "id": "1",
+      "firstName": "Charlie",
+      "lastName": "Parenton",
+      "gender": "m",
+      "classSchool": {
+        "id": 14,
+        "name": "10e",
+        "cycle": {
           "id": 1,
           "name": "Grandes classes",
           "code": "GC"
         }
+      },
+      "users": [
+        8,
+        10
+      ],
+      "absences": []
     },
     {
-      "id":14,
-      "name":"10e",
-      "cycle": {
+      "id": "2",
+      "firstName": "Kevin",
+      "lastName": "Parenton",
+      "gender": "m",
+      "classSchool": {
+        "id": 14,
+        "name": "10e",
+        "cycle": {
           "id": 1,
           "name": "Grandes classes",
           "code": "GC"
         }
+      },
+      "users": [
+        8,
+        10
+      ],
+      "absences": []
     },
     {
-      "id":15,
-      "name":"11e",
-      "cycle": {
+      "id": "3",
+      "firstName": "Stéphanie",
+      "lastName": "Parenton",
+      "gender": "m",
+      "classSchool": {
+        "id": 14,
+        "name": "10e",
+        "cycle": {
           "id": 1,
           "name": "Grandes classes",
           "code": "GC"
         }
+      },
+      "users": [
+        8,
+        10
+      ],
+      "absences": []
     },
     {
-      "id":16,
-      "name":"12e",
-      "cycle": {
+      "id": "4",
+      "firstName": "Jacques",
+      "lastName": "Parentin",
+      "gender": "m",
+      "classSchool": {
+        "id": 14,
+        "name": "10e",
+        "cycle": {
           "id": 1,
           "name": "Grandes classes",
           "code": "GC"
         }
+      },
+      "users": [
+        9
+      ],
+      "absences": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "5",
+      "firstName": "Claude",
+      "lastName": "Gardechourme",
+      "gender": "m",
+      "classSchool": {
+        "id": 14,
+        "name": "10e",
+        "cycle": {
+          "id": 1,
+          "name": "Grandes classes",
+          "code": "GC"
+        }
+      },
+      "users": [
+        10
+      ],
+      "absences": []
+    },
+    {
+      "id": "6",
+      "firstName": "Léon",
+      "lastName": "Gardechourme",
+      "gender": "m",
+      "classSchool": {
+        "id": 14,
+        "name": "10e",
+        "cycle": {
+          "id": 1,
+          "name": "Grandes classes",
+          "code": "GC"
+        }
+      },
+      "users": [
+        10
+      ],
+      "absences": []
+    }
+  ],
+  "classSchools": [
+    {
+      "id": "1",
+      "name": "JE Anne-Fleur",
+      "cycle": {
+        "id": 1,
+        "name": "Jardin d'enfants",
+        "code": "JE"
+      }
+    },
+    {
+      "id": "2",
+      "name": "JE Nahani",
+      "cycle": {
+        "id": 1,
+        "name": "Jardin d'enfants",
+        "code": "JE"
+      }
+    },
+    {
+      "id": "3",
+      "name": "JE Heike",
+      "cycle": {
+        "id": 1,
+        "name": "Jardin d'enfants",
+        "code": "JE"
+      }
+    },
+    {
+      "id": "4",
+      "name": "JE Bénédicte",
+      "cycle": {
+        "id": 1,
+        "name": "Jardin d'enfants",
+        "code": "JE"
+      }
+    },
+    {
+      "id": "5",
+      "name": "1e",
+      "cycle": {
+        "id": 1,
+        "name": "Premier cycle",
+        "code": "PC"
+      }
+    },
+    {
+      "id": "6",
+      "name": "2e",
+      "cycle": {
+        "id": 1,
+        "name": "Premier cycle",
+        "code": "PC"
+      }
+    },
+    {
+      "id": "7",
+      "name": "3e",
+      "cycle": {
+        "id": 1,
+        "name": "Premier cycle",
+        "code": "PC"
+      }
+    },
+    {
+      "id": "8",
+      "name": "4e",
+      "cycle": {
+        "id": 1,
+        "name": "Premier cycle",
+        "code": "PC"
+      }
+    },
+    {
+      "id": "9",
+      "name": "5e",
+      "cycle": {
+        "id": 1,
+        "name": "Premier cycle",
+        "code": "PC"
+      }
+    },
+    {
+      "id": "10",
+      "name": "6e",
+      "cycle": {
+        "id": 1,
+        "name": "Premier cycle",
+        "code": "PC"
+      }
+    },
+    {
+      "id": "11",
+      "name": "7e",
+      "cycle": {
+        "id": 1,
+        "name": "Premier cycle",
+        "code": "PC"
+      }
+    },
+    {
+      "id": "12",
+      "name": "8e",
+      "cycle": {
+        "id": 1,
+        "name": "Premier cycle",
+        "code": "PC"
+      }
+    },
+    {
+      "id": "13",
+      "name": "9e",
+      "cycle": {
+        "id": 1,
+        "name": "Grandes classes",
+        "code": "GC"
+      }
+    },
+    {
+      "id": "14",
+      "name": "10e",
+      "cycle": {
+        "id": 1,
+        "name": "Grandes classes",
+        "code": "GC"
+      }
+    },
+    {
+      "id": "15",
+      "name": "11e",
+      "cycle": {
+        "id": 1,
+        "name": "Grandes classes",
+        "code": "GC"
+      }
+    },
+    {
+      "id": "16",
+      "name": "12e",
+      "cycle": {
+        "id": 1,
+        "name": "Grandes classes",
+        "code": "GC"
+      }
     }
   ]
 }
